@@ -38,4 +38,4 @@ jobs:
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{ --username DimRodgers }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        password: ${{ --password-stdin 123456789Srx- }}
